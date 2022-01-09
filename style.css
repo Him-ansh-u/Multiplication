@@ -1,0 +1,128 @@
+html{
+    height: 100%;
+    background: radial-gradient(circle, #3500d3, #282828);
+}
+#container{
+    background-color:#282828;
+    height: 410px;
+    width: 550px;
+    margin: 80px auto 80px auto;
+    box-shadow: 0px 4px 0px #333 ;
+    position: relative;
+    padding-top: 10px;
+    border-radius: 5px;
+
+}
+#score{
+    background-color: #3500d3;
+    margin: 5px 10px;
+    float: right;
+    padding: 8px;
+    box-shadow: 0px 4px 0px #190061 ;
+    color: #ffffff;
+}
+#correct{
+    background-color: #14a76c;
+    left: 250px;
+    margin: 30px auto;
+    position: absolute;
+    padding: 5px;
+    display: none;
+    
+}
+#wrong{
+    background-color: #c3073f ;
+    left: 250px;
+    margin: 30px auto;
+    position: absolute;
+    padding: 5px;
+    display: none;
+}
+#question{
+    background-color: #190061;
+    height: 150px;
+    width: 460px;
+    margin: 40px auto 5px auto;
+    box-shadow: 0px 3px 0px #0c0032;
+    text-align: center;
+    line-height: 150px;
+    font-family: cursive;
+    font-size: 110px;
+    color: #ffffff;
+}
+#instruction{
+    background-color: #003a74;
+    height: 50px;
+    width: 460px;
+    margin: 1px auto;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    box-shadow: 0px 3px 0px #190061;
+}
+.button{
+    background-color: #ffffff;
+    height: 80px;
+    width: 80px;
+    margin-top: 10px;
+    margin-left: 46px;
+    float: left;
+    text-align: center;
+    line-height:75px ;
+    box-shadow: 0px 3px 0px #7D868F;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.2s;
+    font-size: large;
+    color: #0c0032;
+}
+.button:hover, #start:hover{
+    background-color: #3500d3;
+    color: #ffffff;
+    box-shadow:0px 3px 0px #190061;
+}
+.button:active, #start:active{
+    box-shadow: 0px 0px #190061;
+    top: 3px;
+}
+#start{
+    height: 20px;
+    width: 50px;
+    text-align: center;
+    line-height: 12px;
+    background-color: #003a74;
+    margin: 100px auto;
+    padding: 8px;
+    box-shadow: 0px 3px 0px #0c0032 ;
+    color: #ffffff;
+    cursor: pointer;
+    transition:all 0.2s;
+    border-radius: 2px;
+}
+#time{
+   background-color: #3500d3;
+   top: 360px;
+   height: 20px;
+   padding: 8px;
+   left: 380px;
+   color: #ffffff;
+   box-shadow: 0px 3px 0px #0c0032 ;
+   position: absolute;
+   border-radius: 2px;
+   /*visibility: hidden;*/
+   display: none;
+}
+#over{
+    position: absolute;
+    height: 250px;
+    width: 450px;
+    background: linear-gradient(#3500d3, #282828);
+    top: 60px;
+    left: 50px;
+    color:white;
+    text-align: center;
+    line-height: 110px;
+    font-size: XX-large;
+    font-family: cursive;
+    display: none;
+}
